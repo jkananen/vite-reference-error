@@ -5,6 +5,8 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  test = 1 // this does not show an error in console
+
   return (
     <div className="App">
       <div>
